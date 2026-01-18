@@ -1,0 +1,19 @@
+.intro{
+    padding: 50px;
+    background-color: white;
+}
+.intro h4{
+color:#3F3F3F;
+font-size: 37px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.intro p{
+    font-size: 20px;
+    color:#0F0F0F;
+    font-family: AvantGarde;
+}
+.intro img{
+    border-radius: 5px;
+    width:100%
+}

@@ -1,0 +1,40 @@
+.cover {
+    background-image: url(/img/moni_2.svg);
+    padding: 30px;
+    min-height: 486px;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left_side {
+    width: 50%;
+}
+
+.left_side h2 {
+    color: #464646;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.left_side a {
+    border-radius: 26.29px;
+    padding: 4px 3px 4px 20px;
+    background: linear-gradient(93.08deg, #14B0F9 1.53%, #0197DC 98.47%);
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    line-height: 1;
+}
+
+.left_side a span {
+    background-color: #14B0F9;
+    border-radius: 50%;
+    padding: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}

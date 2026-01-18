@@ -1,0 +1,47 @@
+.scroll-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border:2px solid #FFFFFF;
+    background-color:#0095DA;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+.scroll-btn:hover {
+    box-shadow: none;
+    outline: none;
+    border-color: #FFFFFF;
+}
+.scroll-btn svg{
+  flex-shrink: 0;
+}
+  /* Tooltip */
+  .scroll-btn .tooltip {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: #000;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    white-space: nowrap;
+  
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover zamanı yuxarı qalxsın */
+  .scroll-btn:hover .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }  

@@ -1,0 +1,138 @@
+:global(footer) {
+    background-color: #0095DA;
+    padding: 40px
+}
+
+:global(footer) p {
+    color: white;
+    font-family: AvantGarde;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+:global(footer) p span {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+:global(footer) h5 {
+    font-weight: 700;
+    font-size: 26.95px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+:global(footer) a,
+:global(footer) address span {
+    display: block;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: AvantGarde;
+}
+.footer_contact > a:nth-of-type(2){
+    text-decoration: underline !important;
+}
+
+:global(footer) address {
+    display: flex;
+    margin-bottom: 0;
+}
+
+:global(footer) a svg,
+:global(footer) address svg {
+    width: 18px;
+    margin-right: 10px;
+    color: white;
+    flex-shrink: 0;
+}
+
+:global(footer) address svg {
+    margin-top: 6px;
+}
+
+.social {
+    display: flex;
+    gap: 10px
+}
+
+.social a {
+    background-color: white;
+    color: #0095DA;
+    border-radius: 50%;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 18px;
+    transition: .5s all ease;
+}
+.social a:hover {
+    background-color: #0780b9;
+    color:white
+}
+.social a:hover svg{
+    color:white
+}
+.social a svg {
+    color: #0095DA;
+    margin-right: 0;
+}
+
+:global(footer) input {
+    border: 1.8px solid white;
+    background-color: transparent;
+    border-radius: 34.58px;
+    padding: 14px 30px;
+    color: white
+}
+
+:global(footer) input:focus {
+    border: 1.8px solid white;
+    outline: none;
+    box-shadow: none;
+}
+
+:global(footer) input::placeholder {
+    color: white
+}
+
+.footer_subscribe {
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.footer_subscribe button {
+    position: absolute;
+    background: #19B6FF;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    display: inline-flex;
+    right: 4px;
+    top: 4px;
+    border: none;
+    transition: .5s all ease;
+}
+
+.footer_subscribe button:hover {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #006391;
+}
+
+.footer_contact {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.divider {
+    width: calc(100% - 111px);
+    height: 1px;
+    background-color: #FFFFFF4D;
+    display: block;
+    margin: 30px auto 0;
+}

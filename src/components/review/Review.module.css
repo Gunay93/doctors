@@ -1,0 +1,49 @@
+.reviw_card {
+    background-color: #F9F9F9;
+    border-radius: 5.31px;
+    padding: 15px;
+    position: relative;
+}
+
+.reviw_card img {
+    border-radius: 50%;
+}
+
+.reviw_card h5 {
+    color: #1C1C1C;
+    font-size: 18.52px;
+    font-weight: 500;
+    margin-top:10px;
+    margin-bottom: 0;
+}
+.reviw_card p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color:#1C1C1C;
+    font-family: AvantGarde;
+    margin-top: 15px;
+}
+.reviw_card svg {
+    width: 14px;
+}
+
+.star_rating {
+    display: flex;
+    gap: 5px
+}
+.quote{
+    background-color:#0095DA;
+    border-radius: 2.65px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    top:20px;
+    color:white;
+}
+.quote svg{
+    width: 19px;
+    height: 19px;
+}
