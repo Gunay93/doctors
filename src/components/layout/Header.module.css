@@ -150,44 +150,4 @@
     justify-content: center;
     margin-right: 10px;
 }
-.scroll_btn {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    background: #0a8fdc;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    z-index: 1000;
-  }
-
-  .scroll_btn .tooltip {
-    position: absolute;
-    bottom: 70px;
-    left: 50%;
-    transform: translateX(-50%) translateY(10px);
-    background: #000;
-    color: #fff;
-    padding: 6px 10px;
-    border-radius: 6px;
-    font-size: 13px;
-    white-space: nowrap;
-  
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-  }
-  .scroll_btn:hover .tooltip {
-    opacity: 1;
-    transform: translateX(-50%) translateY(0);
-  }
   

@@ -1,7 +1,7 @@
 .scroll-btn {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 110px;
     width: 62px;
     height: 62px;
     border-radius: 50%;
@@ -22,7 +22,6 @@
 .scroll-btn svg{
   flex-shrink: 0;
 }
-  /* Tooltip */
   .scroll-btn .tooltip {
     position: absolute;
     bottom: 70px;
@@ -40,7 +39,6 @@
     transition: all 0.3s ease;
   }
   
-  /* Hover zamanı yuxarı qalxsın */
   .scroll-btn:hover .tooltip {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
