@@ -3,7 +3,7 @@ import { doctorsMock } from "../../data/doctors";
 import styles from "./Doctors.module.css";
 import { useState } from "react";
 import { FaUserMd } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
+import { FaUserPlus } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 const DoctorDetail = () => {
     const { id } = useParams();
@@ -37,7 +37,7 @@ const DoctorDetail = () => {
                             </div>
 
                             <div className={styles.stat}>
-                                <FaUsers />
+                                <FaUserPlus />
                                 <div>
                                     <strong>{doctor.patients}</strong>
                                     <span>Pasiyent sayı</span>
@@ -97,7 +97,7 @@ const DoctorDetail = () => {
                                     <ul className={styles.list}>
                                         {doctor.education.map((item, i) => (
                                             <li key={i}>
-                                                <span className={styles.check}>✓</span>
+                                                <img className={styles.check} src="/img/check.svg" alt="Check" />
                                                 {item}
                                             </li>
                                         ))}
@@ -113,7 +113,7 @@ const DoctorDetail = () => {
                                     <ul className={styles.list}>
                                         {doctor.treatments.map((item, i) => (
                                             <li key={i}>
-                                                <span className={styles.check}>✓</span>
+                                                <img className={styles.check} src="/img/check.svg" alt="Check" />
                                                 {item}
                                             </li>
                                         ))}

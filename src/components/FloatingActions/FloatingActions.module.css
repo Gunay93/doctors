@@ -1,80 +1,77 @@
 .wrapper {
-    position: fixed;
-    right: 24px;
-    width: 64px;
-    height: 64px;
-    z-index: 9999;
-  }
-  
-  /* yerləri */
-  .whatsapp {
-    bottom: 120px;
-  }
-  
-  .phone {
-    bottom: 32px;
-  }
-  
-  /* əsas icon */
-  .icon {
-    position: relative;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    z-index: 2;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-  }
-  
-  /* rənglər */
-  .whatsapp .icon {
-    background: #25d366;
-  }
-  
-  .phone .icon {
-    background: #0a8fdc;
-  }
-  
-  /* pulse dairələri */
-  .pulse {
-    position: absolute;
-    inset: 0;
-    border-radius: 50%;
-    animation: pulse 2.4s infinite;
+  position: fixed;
+  right: 24px;
+  z-index: 9999;
+}
+
+.whatsapp {
+  bottom: 120px;
+}
+
+.phone {
+  bottom: 32px;
+}
+
+.button {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.icon {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.whatsapp .icon {
+  background: #84D84C;
+}
+
+.phone .icon {
+  background: #00AFF0;
+}
+
+.pulse {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  animation: pulse 2.4s infinite;
+  opacity: 0.6;
+}
+
+.whatsapp .pulse {
+  background: #84D84C80;
+}
+
+.phone .pulse {
+  background: #00AFF080;
+}
+
+.pulse:nth-child(1) {
+  animation-delay: 0s;
+}
+.pulse:nth-child(2) {
+  animation-delay: 0.8s;
+}
+.pulse:nth-child(3) {
+  animation-delay: 1.6s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
     opacity: 0.6;
   }
-  
-  .whatsapp .pulse {
-    background: rgba(37, 211, 102, 0.45);
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
   }
-  
-  .phone .pulse {
-    background: rgba(10, 143, 220, 0.45);
-  }
-  
-  /* gecikmələr */
-  .pulse:nth-child(1) {
-    animation-delay: 0s;
-  }
-  .pulse:nth-child(2) {
-    animation-delay: 0.8s;
-  }
-  .pulse:nth-child(3) {
-    animation-delay: 1.6s;
-  }
-  
-  /* animasiya */
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-      opacity: 0.6;
-    }
-    100% {
-      transform: scale(1.8);
-      opacity: 0;
-    }
-  }
-  
+}

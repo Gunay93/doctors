@@ -31,7 +31,7 @@
     margin-bottom: 10px;
     font-family: AvantGarde;
 }
-.footer_contact > a:nth-of-type(2){
+.email{
     text-decoration: underline !important;
 }
 

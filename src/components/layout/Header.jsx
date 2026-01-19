@@ -11,6 +11,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import { useState } from 'react';
 import { CiSearch } from "react-icons/ci";
 import { FaPhone } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 function Header() {
   const [lang, setLang] = useState("Az");
   return (
@@ -51,7 +52,7 @@ function Header() {
       </div>
       <Navbar expand="lg" className={styles.custom_navbar}>
         <Container>
-          <Navbar.Brand href="#">
+          <Navbar.Brand as={Link} to="/">
             <img src="/img/Logo.svg" alt="Logo" className={styles.logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

@@ -23,7 +23,7 @@ function Footer() {
             <div className={styles.footer_contact}>
               <h5>Əlaqə</h5>
               <a href=""><CiPhone />*0111</a>
-              <a href="mailto:info@lorhospital.az"><CiMail />info@lorhospital.az</a>
+              <a href="mailto:info@lorhospital.az" className={styles.email}><CiMail />info@lorhospital.az</a>
               <address><CiLocationOn /><span>Bakı ş., Nərimanov r., Əhməd Rəcəbli 19K, AZ1075</span></address>
             </div>
           </div>
